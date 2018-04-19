@@ -1,0 +1,35 @@
+  body{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+
+@media screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    body{
+        display: flex;
+        flex-wrap: wrap;
+  }
+
+}
+
