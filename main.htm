@@ -4,32 +4,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="main2.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
   </head>
-  <body>
-
-
+    <body>
     <header class="header">
-      <div class="header__inner">
-        <img class="header__logo" src="images/logo.jpg" alt="Portfolio">
-        <h1 class="header__title">
-          The Portfolio Of Himanshu Chaudhary
+        <img class="header_logo" src="images/logo.jpg" alt="Portfolio">
+        <h1 class="header_title">
+          Himanshu Chaudhary
         </h1>
-      </div>
     </header>
 
-
-    <nav id="drawer" class="nav">
-      <ul class="nav_list">
-        <li class="nav_item"><a href="#about">About Page</a></li>
-        <li class="nav_item"><a href="#projects">Projects</a></li>
-        <li class="nav_item"><a href="#photos">Photos</a></li>
-        <li class="nav_item"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
+        <div class="nav">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+            <a href="#about">About Page</a>
+            <a href="#projects">Projects</a>
+            <a href="#photos">Photos</a>
+            <a href="#contact">Contact Info</a>
+        </div>
+    </div>
 
     <main>
-      <section class="content">
         <section class="whatabout" id="about">
           <article class="details">
             <h2>About the site</h2>
@@ -37,38 +33,39 @@
           </article>
         </section>
 
-
-      <section class="Projects">
         <section id="projects">
           <article class="details_of_projects">
-            <h2>About my projects</h2>
+            <h2>Projects</h2>
             <p>The projects I have done are listed below:-</p>
             <ol>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
+              <li class="project_list_1">
+                <img class="image_1" src="Images/portphoto.JPG">
+                <h2><a href="https://github.com/himanshu-ckh/Portfolio/blob/master/main.htm">Portfolio Project</a></h2></li>
+              <li class="project_list_2">
+                <img class="image_2" src="Images/machine learning.JPG">
+                <h2><a href="https://github.com/himanshu-ckh/ml-agriculture">Machine Learning Project</a></h2></li>
             </ol>
           </article>
         </section>
 
 
+        <h2 class="photo_title">Photos</h2>
         <section id="photos">
           <img class="photo1" src="Images/2.JPG">
-          <img class="photo2" src="Images/2.JPG">
-          <img class="photo3" src="Images/2.JPG">
-          <img class="photo4" src="Images/2.JPG">
+          <img class="photo2" src="Images/3.JPG">
+          <img class="photo3" src="Images/4.JPG">
+          <img class="photo4" src="Images/5.JPG">
         </section>
 
-
+      
         <footer id="contact">
-        <ul>
-          <li>Phone No.- (+91)9943639427</li>
-          <li><a href="https://www.facebook.com/himanshu.choudhary.7906">Follow me on facebook</a></li>
-        </ul>
-      </footer>
+          <h2>Contact</h2>
+            <ul>
+              <li>Phone No.- (+91)9943639427</li>
+              <li><a href="https://www.facebook.com/himanshu.choudhary.7906">Follow me on facebook</a></li>
+            </ul>
+        </footer>
     </main>
-  </body>
-</html>
 
+</body>
+</html>
