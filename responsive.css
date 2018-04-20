@@ -4,32 +4,20 @@
   }
 
 
+@media screen and (max-width: 880px) {
+    .project_list_1, .project_list_2, .project_list_3, .resume{
+      width: 100%;
+    }
 
+    .image_1, .image_2, .image_3_1, .image_3{
+      max-width: 100%;
+    }
+}
 
-@media screen and (max-width: 500px) {
-    label {
-        display: block;
-        cursor: pointer;
+@media screen and (max-width: 580px) {
+    .header_title {
+        font-weight: 150;
+        font-size: 1.5em;
     }
-    .menu {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
-    .menu a {
-        display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-     
-    }
-    #toggle:checked + .menu {
-        display: block;
-    }
-    
-    body{
-        display: flex;
-        flex-wrap: wrap;
-  }
-
 }
 
