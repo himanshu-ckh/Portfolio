@@ -1,0 +1,51 @@
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  min-height: 36px;
+  transition: min-height 0.3s;
+  width: 100%;
+}
+
+.header_logo {
+  width: 100px;
+  height: 100px;
+  vertical-align: top;
+}
+
+.header_title {
+  font-weight: 300;
+  font-size: 3em;
+  float: right;
+  margin: 0.5em 0.25em;
+  display: inline-block;
+  color: #212121;
+}
+
+.main_logo {
+	width: 150%;
+	margin: 10px 210px 0px 210px;
+}
+
+.whatabout {
+	width: 100%;
+}
+
+.projects {
+	width: 100%;
+}
+
+.project_list_1, .project_list_2, .project_list_3 {
+	width: 33%;
+	display: inline-block;
+}
+
+.image_1, .image_2, .image_3_1 {
+	width: 90%;
+}
+
+.resume{
+	width: 100%;
+}
+
+.image_3{
+	max-width: 33%;
+}
